@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@integrated-react-monorepo-titg/use-eval": ["libs/use-eval/src/index.ts"]
+      "@integrated-react-monorepo-titg/use-eval": [
+        "libs/use-eval/src/index.ts"
+      ],
+      "@myorg/is-even": ["libs/is-even/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
